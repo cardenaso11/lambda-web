@@ -15,7 +15,7 @@ exclude = ["/docker/"]
 all-features = true
 
 [features]
-default = ["br"]
+default = ["br", "rocket05"] # this is because we use this in a cargo patch, where we can't enable/disable features
 
 # Enable one of your favorite web-framework
 actix4 = ["actix-web", "actix-http", "actix-service"]
